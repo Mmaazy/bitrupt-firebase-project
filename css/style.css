@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav .navbar-nav li {
+    color: white!important;
+    font-size: 20px;
+}
+
+.main-home {
+    background-image: url('../img/pic1.jpg');
+    height: 95vh;
+    background-size: cover;
+    margin-top: -1rem;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.cover {
+    height: 89.5vh;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    margin-top: 15px;
+    opacity: 0.6;
+}
+
+.side-content {
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    width: 10%;
+    height: 70vh;
+    margin: 20px;
+    color: white;
+}
+
+#heading-1 {
+    filter: brightness(350%);
+    color: white;
+    letter-spacing: 2px;
+}
+
+#learn-btn {
+    border: 2px solid white;
+    color: white;
+}
+
+.mainContainer {
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.container-img {
+    background-image: url('../img/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.centered {
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+#abt-heading {
+    background: none;
+    color: white;
+}
+
+.main-logout {
+    height: 100vh;
+}
+
+.left-login-con {
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    box-shadow: 5px 5px 5px;
+}
+
+.right-login-con {
+    height: 100vh;
+}
+
+#h1,
+#h3 {
+    color: white;
+    font-weight: bold;
+}
+
+.form-container {
+    position: relative;
+    margin-top: 39%;
+}
+
+#logout-btn {
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  td, th, tr {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
+  tr:nth-child(even) {
+    background-color: #b3b3cc;
+  }
+
+
